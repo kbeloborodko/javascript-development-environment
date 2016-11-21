@@ -1,3 +1,8 @@
-# Add any directories, files, or patterns you don't want to be tracked by version control
+# Prevent committing WebStorm-specific files to the repository
 .idea
+
+# Prevent committing node modules to the repository
 node_modules
+
+# Prevent committing node debug logs to the repository
+npm-debug.log
