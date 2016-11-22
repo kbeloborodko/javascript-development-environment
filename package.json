@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Sliceart Starter Kit example",
   "scripts": {
+    "start": "node build-scripts/src-server.js"
   },
   "author": "Sliceart",
   "license": "MIT",
