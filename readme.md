@@ -39,6 +39,10 @@ Add additional notes about how to deploy this on a live system
 
 ### Editor config
 
+### Node modules
+
+Node packages including nsp (node security project) to verify if existing dependencies are not vulnerable
+
 ### Express server for local development
 
 ## Built With
