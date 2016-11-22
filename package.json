@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Sliceart Starter Kit example",
   "scripts": {
-    "start": "node build-scripts/src-server.js"
+    "prestart": "node build-scripts/start-message.js",
+    "start": "npm-run-all --parallel security-check open:src",
+    "security-check": "nsp check",
+    "localtunnel": "lt --port 3000",
+    "share": "npm-run-all --parallel open:src localtunnel"
   },
   "author": "Sliceart",
   "license": "MIT",
