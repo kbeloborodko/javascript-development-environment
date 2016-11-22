@@ -1,7 +1,7 @@
 {
-  "name": "javascript-starter-kit",
+  "name": "sliceart-starter-kit",
   "version": "1.0.0",
-  "description": "Sliceart Starter Kit example",
+  "description": "Sliceart Javascript Development Starter Kit",
   "scripts": {
     "prestart": "node build-scripts/start-message.js",
     "start": "npm-run-all --parallel security-check open:src",
