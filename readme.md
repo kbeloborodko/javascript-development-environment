@@ -45,6 +45,16 @@ Node packages including nsp (node security project) to verify if existing depend
 
 ### Express server for local development
 
+### Sharing work-in progress
+
+1. Local Tunnel https://localtunnel.github.io/www/
+
+2. NG Rock https://ngrok.com/
+
+3. Surge https://surge.sh/
+
+4. Now https://zeit.co/now
+
 ## Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
