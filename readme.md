@@ -49,6 +49,13 @@ Node packages including nsp (node security project) to verify if existing depend
 
 1. Local Tunnel https://localtunnel.github.io/www/
 
+Here is an example of how you would use local tunnel to share your work-in-progress:
+
+* run ```npm install localtunnel -g``` in your command line
+* start the local server, in our case by executing ``` node build-scripts/src-server.js ```
+* add a new terminal video and run ``` lt --port 3000 ``` (port number is based on the configuration)
+* use the url that will be shown in the console
+
 2. NG Rock https://ngrok.com/
 
 3. Surge https://surge.sh/
