@@ -62,6 +62,10 @@ Here is an example of how you would use local tunnel to share your work-in-progr
 
 4. Now https://zeit.co/now
 
+### Automation
+
+1. NPM build scripts
+
 ## Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
