@@ -6,3 +6,6 @@ node_modules
 
 # Prevent committing node debug logs to the repository
 npm-debug.log
+
+# Prevent committing mocked data to the repository
+src/api/*.json
