@@ -1,6 +1,6 @@
 import './index.css';
 
-import {getUsers} from './api/user-api';
+import {getUsers, deleteUser} from './api/user-api';
 
 getUsers().then(result => {
   let usersBody = "";
@@ -16,4 +16,17 @@ getUsers().then(result => {
   });
 
   global.document.getElementById('users').innerHTML = usersBody;
+
+  const deleteLinks = global.document.getElementsByClassName('delete-user');
+
+  Array.from(deleteLinks, link => {
+    link.onclick = function(event) {
+      const element = event.target;
+      event.preventDefault();
+      deleteUser(element.attributes["data-id"].value);
+
+      const row = element.parentNode.parentNode;
+      row.parentNode.removeChild(row);
+    };
+  });
 });
