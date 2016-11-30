@@ -1,5 +1,5 @@
 import path from 'path';
-import HTMLWebpackPLugin from 'html-webpack-plugin';
+import HTMLWebpackPlugin from 'html-webpack-plugin';
 
 export default {
   debug: true,
@@ -16,7 +16,7 @@ export default {
   },
   plugins: [
     // Create HTML file that includes reference to bundled JS
-    new HTMLWebpackPLugin({
+    new HTMLWebpackPlugin({
       template: 'src/index.html',
       inject: true
     })
