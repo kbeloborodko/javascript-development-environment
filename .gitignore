@@ -9,3 +9,6 @@ npm-debug.log
 
 # Prevent committing mocked data to the repository
 src/api/*.json
+
+# Prevent committing dist folder to the repository
+dist
