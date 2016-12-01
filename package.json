@@ -19,7 +19,7 @@
     "clean-dist": "rimraf ./dist && mkdir dist",
     "prebuild": "npm-run-all clean-dist test lint",
     "build": "babel-node build-scripts/build.js",
-    "postbuild": "babel-node build-scripts/dist-server.js",
+    "build-server": "babel-node build-scripts/dist-server.js",
     "deploy": "surge ./dist"
   },
   "author": "Sliceart",
