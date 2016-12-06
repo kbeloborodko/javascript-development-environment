@@ -18,7 +18,7 @@ Give examples
 
 A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
+1. run ```npm install``` within your command shell
 
 ```
 Give the example
