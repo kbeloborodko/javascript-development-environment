@@ -19,6 +19,7 @@ Give examples
 A step by step series of examples that tell you have to get a development env running
 
 1. run ```npm install``` within your command shell
+2. run ```npm start``` to start the application
 
 ```
 Give the example
